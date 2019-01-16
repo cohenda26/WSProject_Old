@@ -56,25 +56,17 @@
                 <div class="carousel-item">
                     <!-- Slide Background --><img src="./images/slider-img1.jpg" alt="Building Magical Apps" class="slide-image" />
                     <!-- Slide Text Layer -->
-                    <div class="slide-text">
-                        <div class="container" data-animation="animated fadeInUp">
-                            <div class="bg-white slide-content po-relative">
-                                <label class="label text-white bg-purple">ON RENT</label>
-                                <h3 data-animation="animated flipInX" class="m-b-10 m-t-0"><a href="#" class="link">Magical Apartment</a></h3>
-                                <h6>36, Kingstone Cornern, Melbourne, Australia - 3890</h6>
-                                <p data-animation="animated fadeInLeft" class="m-t-20">Lorem ipsum dolor sit amet, consectet cing elit, sed diam nonummy.</p>
-                                <h2 class="text-info m-b-0">$685,000 <span class="tag bg-danger">Hot Offer</span></h2> </div>
-                            <div class="bg-light slide-content specifiaction-box">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <h6 class="specifiaction text-muted">Bedrooms</h6>
-                                        <h5 class="m-b-0 font-medium">4</h5> </div>
-                                    <div class="col-4">
-                                        <h6 class="specifiaction text-muted">Bathrooms</h6>
-                                        <h5 class="m-b-0 font-medium">2</h5> </div>
-                                    <div class="col-4">
-                                        <h6 class="specifiaction text-muted">Garages</h6>
-                                        <h5 class="m-b-0 font-medium">1</h5> </div>
+                    <div class="slide-text slide_style_left">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-10 col-md-8 col-lg-5" data-animation="animated slideInDown">
+                                    <div class="bg-white text-center slide-content po-relative">
+                                        <label class="label text-white font-14 m-0 label-rounded bg-info">Lifecare</label>
+                                        <h2 data-animation="animated flipInX" class="title m-b-0">Get Well Soon</h2>
+                                        <p data-animation="animated fadeInLeft" class="m-t-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit fringilla ligula, nec congue leo pharetra in.</p>
+                                        <a href="#" class="bg-info text-left text-white"><i class="icon icon-Right ti-arrow-right"></i></a>
+                                        <a href="#" class="bg-info btn-arrow text-white"><i class="ti-arrow-right"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -165,6 +157,3 @@
             </div>
         </div>
     </div>
-
-
- 

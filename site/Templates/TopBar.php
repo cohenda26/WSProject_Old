@@ -10,7 +10,7 @@
             </div>
             <div class="col-md-7 t-r">
                 <ul class="list-inline authentication-box">
-                    <li><a href="" class="btn btn-danger-gradiant font-14 b-l">Devenez partenaire </a></li>
+                    <li><a href="" class="btn btn-danger-gradiant font-14 b-l" data-toggle="modal" data-target="#ModalPartenaireSignInForm">Devenez partenaire </a></li>
                 </ul>
             </div>
         </div>
