@@ -131,10 +131,10 @@
                     </li>
                 </ul>
 
-                <form class="form-inline ml-auto authentication-box">
+                <div class="form-inline ml-auto authentication-box">
                     <button class="btn btn-outline-success mr-sm-2" type="submit" data-toggle="modal" data-target="#ModalLoginForm">Login</button>
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#ModalSignInForm">Register</button>
-                </form>
+                </div>
                 <!-- <ul class="ml-auto list-inline authentication-box">
                     <li class="nav-item list-inline "><a class="nav-link btn btn-success-gradiant font-14 b-l" href="#">Login</a></li>
                     <li class="nav-item list-inline "><a class="nav-link btn btn-success-gradiant font-14 b-l" href="#">Register</a></li>
@@ -144,99 +144,3 @@
         </nav>
     </div>
 </div>
-
-
-
-<!-- Modal HTML Markup -->
-<div id="ModalSignInForm" class="modal fade custom-modal">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content po-relative">
-            <div class="modal-header">
-                <h1 class="modal-title">Login</h1>
-            </div>
-            <div class="modal-body">
-                <form role="form" method="POST" action="#">
-                    <input type="hidden" name="_token" value="">
-                    <div class="form-group">
-                        <label class="control-label">Username</label>
-                        <div>
-                            <input type="text" class="form-control input-lg" name="name" value="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">E-Mail Address</label>
-                        <div>
-                            <input type="email" class="form-control input-lg" name="email" value="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Password</label>
-                        <div>
-                            <input type="password" class="form-control input-lg" name="password">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Confirm Password</label>
-                        <div>
-                            <input type="password" class="form-control input-lg" name="password_confirmation">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div>
-                            <button type="submit" class="btn btn-success">
-                                Register
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<!-- Modal HTML Markup -->
-<div id="ModalLoginForm" class="modal fade">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title">Login</h1>
-            </div>
-            <div class="modal-body">
-                <form role="form" method="POST" action="">
-                    <input type="hidden" name="_token" value="">
-                    <div class="form-group">
-                        <label class="control-label">E-Mail Address</label>
-                        <div>
-                            <input type="email" class="form-control input-lg" name="email" value="">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label">Password</label>
-                        <div>
-                            <input type="password" class="form-control input-lg" name="password">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div>
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" name="remember"> Remember Me
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div>
-                            <button type="submit" class="btn btn-success">Login</button>
- 
-                            <a class="btn btn-link" href="">Forgot Your Password?</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-
-

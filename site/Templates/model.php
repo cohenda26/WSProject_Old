@@ -47,6 +47,8 @@
                 <?php
                 // Contenu principal
                 require( $page->file );
+
+                require( 'Contents/ModalConnexion.php' );
                 ?>
             </div>
             <!-- ============================================================== -->
